@@ -42,14 +42,6 @@ to see all container
 
 
 
-
-
-
-
-our commands for final day
-
-
-
 docker run --name mongo-cont -p 27016:27017 mongo
 
 
@@ -61,19 +53,7 @@ docker run --network fs-app --name node-app-cont -d -p 8001:8000 -e MONGO_URL=mo
 
 
 
-
-1. Creating a network
-2. pulled a image for mongo
-3.created images for node and react
-4.created containers for node , react and mongo
-
-
-
 docker compose
-
-create multiple images at once
-and to run multiple container at once
-by just one command
 
 
 to build images and run containers
